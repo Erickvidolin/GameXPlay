@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        '01': "url('./img/Jogo_principal.jpg')",
+        '01': "url('./img/star-wars-outlaws.webp')",
         'jogo01': "url('./img/Astroneer.png')",
         'jogo02': "url('./img/Forza Motor.png')",
         'jogo03': "url('./img/Subnautica BZ.png')",
