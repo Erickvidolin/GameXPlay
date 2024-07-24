@@ -676,14 +676,6 @@ video {
   margin: auto;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -696,6 +688,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -706,6 +702,10 @@ video {
 
 .mr-2 {
   margin-right: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mt-5 {
@@ -736,20 +736,16 @@ video {
   display: none;
 }
 
-.h-16 {
-  height: 4rem;
-}
-
-.h-auto {
-  height: auto;
-}
-
 .h-10 {
   height: 2.5rem;
 }
 
 .h-12 {
   height: 3rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .h-20 {
@@ -760,24 +756,20 @@ video {
   height: 6rem;
 }
 
-.w-10\/12 {
-  width: 83.333333%;
-}
-
-.w-10 {
-  width: 2.5rem;
+.h-auto {
+  height: auto;
 }
 
 .w-0 {
   width: 0px;
 }
 
-.w-5 {
-  width: 1.25rem;
+.w-10 {
+  width: 2.5rem;
 }
 
-.w-full {
-  width: 100%;
+.w-10\/12 {
+  width: 83.333333%;
 }
 
 .w-20 {
@@ -792,12 +784,20 @@ video {
   width: 1rem;
 }
 
+.w-5 {
+  width: 1.25rem;
+}
+
 .w-6 {
   width: 1.5rem;
 }
 
 .w-8 {
   width: 2rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .border-collapse {
@@ -852,25 +852,17 @@ video {
   border-width: 1px;
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-black\/80 {
   background-color: rgb(0 0 0 / 0.8);
 }
 
 .bg-black\/90 {
   background-color: rgb(0 0 0 / 0.9);
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-black\/50 {
-  background-color: rgb(0 0 0 / 0.5);
-}
-
-.bg-black\/70 {
-  background-color: rgb(0 0 0 / 0.7);
 }
 
 .bg-gray-900 {
@@ -881,6 +873,14 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-black\/50 {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+.bg-black\/70 {
+  background-color: rgb(0 0 0 / 0.7);
 }
 
 .bg-01 {
@@ -940,11 +940,11 @@ video {
 }
 
 .bg-jogo05 {
-  background-image: url('./img/The first Descendant.png');
+  background-image: url('./img/horizon forbidden.png');
 }
 
 .bg-jogo06 {
-  background-image: url('./img/Call of duty 3.png');
+  background-image: url('./img/Farcry6.png');
 }
 
 .bg-jogo07 {
@@ -1026,14 +1026,14 @@ video {
   line-height: 1;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-red-600 {
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
