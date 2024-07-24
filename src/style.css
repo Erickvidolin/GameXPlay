@@ -1,0 +1,89 @@
+body::-webkit-scrollbar{
+    width: 0;
+}
+
+.swiper {
+  width: 90%;
+  height: 428px;
+}
+
+/* Estilo básico dos bullets */
+.swiper-pagination-bullet {
+  width: 12px; /* Tamanho do bullet */
+  height: 12px;
+  background: #000; /* Cor do bullet */
+  opacity: 0.7; /* Opacidade do bullet */
+  transition: background 0.3s, opacity 0.3s;
+  border-radius: 50%; /* Tornar o bullet circular */
+}
+
+/* Estilo do bullet ativo */
+.swiper-pagination-bullet-active {
+  background: #ff0000; /* Cor do bullet ativo */
+  opacity: 1; /* Opacidade do bullet ativo */
+}
+
+.animate {
+  animation: onda 0.9s ease-in-out forwards;
+  transition: width 5s ease-in-out;
+}
+
+@keyframes onda {
+  0%{
+      width: 0;
+  }
+  99% {
+      width: 80%;
+  }
+
+  100%{
+  opacity: 0;
+  }
+}
+
+@media (min-width: 760px) {
+  .swiper {
+    width: 80%;
+  }
+
+  @keyframes onda {
+    0%{
+        width: 0;
+    }
+    99% {
+        width: 30%;
+    }
+  
+    100%{
+    opacity: 0;
+    }
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .swiper {
+    width: 98%;
+  }
+
+}
+
+@media (min-width: 1440px) {
+  @keyframes onda {
+    0%{
+        width: 0;
+    }
+    99% {
+        width: 20%;
+    }
+  
+    100%{
+    opacity: 0;
+    }
+  }
+
+}
+
+
+
+

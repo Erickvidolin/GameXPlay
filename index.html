@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game XPlay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link href="src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="src/style.css">
+    
+</head>
+<body class="bg-gray-900">
+    <header class="bg-black w-12/12 h-24 flex justify-center items-center" style="color: red;">
+        <img src="./src/img/controle-de-video-game.png" alt="" class=" w-10 h-10 md:w-20 md:h-20">
+        <h2 class="text-4xl md:text-6xl ml-2 font-RacingSansOne">Game</h2>
+        <img src="./src/img/cruz.png" alt="" class="w-10 h-10 md:w-20 md:h-20">
+        <h2 class="text-3xl md:text-6xl font-RacingSansOne">Play</h2>
+    </header>
+
+    <div class="w-12/12">
+        <div class="bg-01 bg-cover flex items-center" style="height: 500px;">                
+                <div class="descricao-pricipal w-10/12 md:w-6/12 lg:w-5/12 xl:w-4/12 2xl:w-3/12  h-auto bg-black/50 ml-5 text-white p-5 flex flex-col rounded-lg">
+                    <h1 class="bg-princ text-2xl mb-3 md:text-5xl">UNDAW</h1>
+                    <p class="w-12/12 md:w-10/12 lg:w-12/12 mb-2  ">Lorem ipsum dolor, sit amet consectetur 
+                        adipisicing elit. Sit fugit iste nihil consequuntur architecto quis itaque debitis,
+                         laudantium cum nam natus quam harum consequatur, officia magni quae beatae nulla dolores.
+                    </p>
+                    <button id="animateButton" class="flex content-center justify-center md:w-8/12 bg-black/70 h-12 rounded-lg hover:shadow-md hover:shadow-black hover:bg-white/70 hover:text-black active:bg-black transition ease-in duration-200 mb-3">
+                        <div id="box" class="animate w-0 h-12 bg-black/50 rounded-lg absolute"></div>
+                        <p class="m-auto">Assistir Gameplay</p>
+                    </button>
+                    <button id="animateButton-2" class="flex content-center justify-center md:w-8/12 bg-black/70 h-12 rounded-lg hover:shadow-md hover:shadow-black hover:bg-white/70 hover:text-black active:bg-black transition ease-in duration-200">
+                        <div id="box-2" class="animate w-0 h-12 bg-black/50 rounded-lg absolute"></div>
+                        <p class="m-auto">Comprar</p>
+                    </button>
+                </div>
+        </div>
+
+        <div class="catalogo w-full">
+            <h2 class="mb-10 text-red-600 text-5xl font-RacingSansOne mt-5" style="color: red;">Gameplays</h2>
+                      
+       
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card-jogo w-12/12 h- group/jogo bg-jogo01">
+                        <div class="descricao">
+                            <p class="text-center text-white p-2">Em Astroneer, os jogadores usam sua ferramenta 
+                                de deformar para cavar, coletar, modelar e construir qualquer coisa que desejarem. 
+                                Use esta habilidade para cavar até o centro do planeta, 
+                                construir uma rampa até os céus ou criar monumentos megalíticos usando o terreno!
+                            </p>
+                            <button class="btn-jogo">
+                                <img src="./src/img/video-player.png" alt="" class="w-5 mr-2 hover:bg-black">
+                                <p class="">Assistir Gameplay</p>
+                            </button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-jogo w-12/12 group/jogo bg-jogo02">
+                        <div class="descricao">
+                            <p class="text-center text-white p-2">Vença os concorrentes na nova carreira. 
+                                Aposte corrida com seus amigos no modo multijogador.
+                                 Dispute usando mais de 500 carros em pistas mundialmente famosas com IA de ponta e física avançada.
+                            </p>
+                            <button class="btn-jogo">
+                                <img src="./src/img/video-player.png" alt="" class="w-5 mr-2">
+                                <p class="">Assistir Gameplay</p>
+                            </button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-jogo w-12/12 group/jogo bg-jogo03">
+                        <div class="descricao">
+                            <p class="text-center text-white p-2">
+                                Below Zero é um jogo de aventura submarina ambientado em um mundo oceânico alienígena.
+                                 Este é um novo capítulo do universo de Subnautica, desenvolvido pela Unknown Worlds.
+                                  Mergulhe em uma nova expedição em temperaturas abaixo de zero em uma região ártica do Planeta 4546B.
+                            </p>
+                            <button class="btn-jogo">
+                                <img src="./src/img/video-player.png" alt="" class="w-5 mr-2">
+                                <p class="">Assistir Gameplay</p>
+                            </button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-jogo w-12/12 group/jogo bg-jogo04">
+                        <div class="descricao">
+                            <p class="text-center text-white p-2">
+                                A história segue a busca do civil Ethan Winters por sua esposa Mia, 
+                                que o leva a uma mansão agrícola aparentemente abandonada e habitada pela família Baker.
+                                 Ethan faz uso de armas e ferramentas na luta contra os membros da família e os "Mofados",
+                                 uma forma humanoide de bactéria.
+                            </p>
+                            <button class="btn-jogo">
+                                <img src="./src/img/video-player.png" alt="" class="w-5 mr-2">
+                                <p class="">Assistir Gameplay</p>
+                            </button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-jogo w-12/12 group/jogo bg-jogo05">
+                        <div class="descricao">
+                            <p class="text-center text-white p-2">The First Descendant é um looter shooter na terceira pessoa, multiplataforma e de próxima geração, 
+                                desenvolvido no Unreal Engine 5. 
+                                Os jogadores assumem o papel de Descendente e lutam contra invasores para salvar a humanidade.
+                            </p>
+                            <button class="btn-jogo">
+                                <img src="./src/img/video-player.png" alt="" class="w-5 mr-2">
+                                <p class="">Assistir Gameplay</p>
+                            </button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-jogo w-12/12 group/jogo bg-jogo06">
+                        <div class="descricao">
+                            <p class="text-center text-white p-2">
+                                Na sequência direta do recordista Call of Duty: Modern Warfare II,
+                                 o Capitão Price e a Força-Tarefa 141 enfrentam a ameaça definitiva. 
+                                 O ultranacionalista e criminoso de guerra, Vladimir Makarov, está estendendo seu domínio por todo o mundo,
+                                 fazendo com que a Força-Tarefa 141 lute como nunca antes.
+                            </p>
+                            <button class="btn-jogo">
+                                <img src="./src/img/video-player.png" alt="" class="w-5 mr-2">
+                                <p class="">Assistir Gameplay</p>
+                            </button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-jogo w-12/12 group/jogo bg-jogo07">
+                        <div class="descricao">
+                            <p class="text-center text-white p-2">
+                                Once Human é ambientado em uma grande ilha infectada por uma praga alienígena 
+                                Lovecraftiana chamada Stardust que transformou tudo e todos em monstros com os mais variados tipos e formas.
+                            </p>
+                            <button class="btn-jogo">
+                                <img src="./src/img/video-player.png" alt="" class="w-5 mr-2">
+                                <p class="">Assistir Gameplay</p>
+                            </button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-jogo w-12/12 group/jogo bg-jogo08">
+                        <div class="descricao">
+                            <p class="text-center text-white p-2">
+                                No Assassin's Creed® Valhalla, tu és Eivor, uma feroz lenda viking em busca de batalhas e glória. 
+                                Explora um mundo aberto belo e misterioso com a violência e a brutalidade da Idade das Trevas em Inglaterra como pano de fundo.
+                            </p>
+                            <button class="btn-jogo">
+                                <img src="./src/img/video-player.png" alt="" class="w-5 mr-2">
+                                <p class="">Assistir Gameplay</p>
+                            </button>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card-jogo w-12/12 group/jogo bg-jogo09">
+                        <div class="descricao">
+                            <p class="text-center text-white p-2">
+                                State of Decay 2:
+                                 Os mortos se ergueram e a civilização caiu. Agora, o seu pequeno grupo de sobreviventes precisa explorar um 
+                                 mundo aberto em busca de recursos e construir uma base capaz de resistir às hordas de zumbis nesse jogo híbrido de ação,
+                                 estratégia e simulação.
+                            </p>
+                            <button class="btn-jogo">
+                                <img src="img/video-player.png" alt="" class="w-5 mr-2">
+                                <p class="">Assistir Gameplay</p>
+                            </button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+        <div class="catalogo w-full">
+            <h2 class="mb-10 text-red-600 text-5xl font-RacingSansOne mt-5" style="color: red;">Canais</h2>
+
+            <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card-canal bg-canal01 w-full">
+                    <div class="nome-canal">
+                        <p class="text-center text-white p-2 text-2xl">MaxMRM</p>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-canal bg-canal02 w-full">
+                    <div class="nome-canal">
+                        <p class="text-center text-white p-2 text-2xl">Patife</p>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-canal bg-canal03 w-full">
+                    <div class="nome-canal">
+                        <p class="text-center text-white p-2 text-2xl">Max Palaro</p>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-canal bg-canal04 w-full">
+                    <div class="nome-canal">
+                      <p class="text-center text-white p-2 text-2xl">Flavio Machado</p>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-canal bg-canal05 w-full">
+                    <div class="nome-canal">
+                       <p class="text-center text-white p-2 text-2xl">Alanzoka</p>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-canal bg-canal06 w-full">
+                    <div class="nome-canal">
+                      <p class="text-center text-white p-2 text-2xl">Cap Joga</p>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-canal bg-canal07 w-full">
+                    <div class="nome-canal">
+                      <p class="text-center text-white p-2 text-2xl">MRSAM</p>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-canal bg-canal08 w-full">
+                    <div class="nome-canal">
+                      <p class="text-center text-white p-2 text-2xl">LipaoGamer</p>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card-canal bg-canal09 w-full">
+                    <div class="nome-canal">
+                      <p class="text-center text-white p-2 text-2xl">Getaway Driver</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            </div>
+        </div>    
+
+    </div>
+
+
+
+
+    <footer class="bg-black w-12/12 h-20 items-center justify-center text-center flex mt-8" style="color: red;">&copy;<p>SevenWebs - 2024</p></footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./src/script.js" defer></script> 
+</body>
+</html>
